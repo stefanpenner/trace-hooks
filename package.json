@@ -1,0 +1,19 @@
+{
+  "name": "trace-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": [
+    "trace-hooks.js"
+  ],
+  "author": "Stefan Penner",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^0.11.0",
+    "es-simpler-traverser": "0.0.1",
+    "esotope": "^1.4.5"
+  }
+}
