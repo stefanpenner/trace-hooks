@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+var trace = require('../lib/trace');
+
+process.stdout.write(trace(process.argv[2]));
